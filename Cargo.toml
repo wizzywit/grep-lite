@@ -1,0 +1,10 @@
+[package]
+name = "grep-lite-2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.19", features = ["derive"] }
+colored = "2.1.0"
+regex = "1.11.0"
+walkdir = "2.5.0"
